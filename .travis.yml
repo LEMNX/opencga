@@ -8,4 +8,4 @@ branches:
   - develop
   
 install: mvn clean install -DskipTests -B dependency:resolve
-script: ./bin/opencga.sh --help
+script: find * && ./build/bin/opencga.sh --help
