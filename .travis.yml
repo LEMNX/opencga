@@ -7,5 +7,5 @@ branches:
   - master
   - develop
   
-install: mvn clean install -DskipTests dependency:resolve
+install: mvn clean install -DskipTests -B dependency:resolve
 script: ./bin/opencga.sh --help
